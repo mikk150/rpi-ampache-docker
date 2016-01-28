@@ -1,8 +1,6 @@
 # For running the latest ampache directly from the repository
 
-FROM php:apache
-
-MAINTAINER PlusMinus <piddlpiddl@gmail.com>
+FROM nidorpi/rpi-php:7.0-apache
 
 
 # Install everything
